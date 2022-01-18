@@ -1,0 +1,37 @@
+Q1 What exactly is the difference between descriptive and inferential statistics?
+
+Ans1  Descriptive Statistcs helps is describing data in the form of visual charts such as bar charts, pie charts, histograms etc so that by just looking at 
+the charts we get to know what data has to say. Descriptive statistics revolves around 2 important measures 
+  1. Measure of central tendancy(Mean,Mode,Median)
+  2. Measure of Dispersion (Variance and standard deviation) 
+whereas Inferential statistics is all about drawing inferences/conclusions from the data as well as visual charts. It basically revolves around taking data 
+from diferent samples based on which genaralisations are made(inferences are drawn) for population data(larger dataset).
+
+
+Q2 I'm not sure what is the difference between a sample and population?
+
+Ans2  Sample is a smaller chunk of data taken from the population distribution(entire data) for making calculations and doing experiments. Conclusions drawn 
+from samples are then genaralised for the entire population.
+eg: We have to find the average height of people in India, Here in this scenario it is impossible to measure height of every individual in the country and
+then find the average but what is possible is that we can take different samples of people from different regions across country(smaller data) and hence find
+their average which finally can be genaralised for the entire country. 
+
+
+Q3 What distinguishes descriptive statistics from other types of statistics?
+
+Ans3 Descriptive Statistics deals with describing visible features of a dataset or calculating them such as mean,mode,median,variance,standard deviation
+and it also deals with the visualisation part(such as bar chart, histogram, pie chart etc.) which helps in describing data better whereas all other types
+of statistics is used to draw inferences from sample data based on certain calculations and then further genaralise it onto a larger dataset often referred
+as population dataset.
+
+
+Q4 What is the difference between Quantitative and Qualitative data?
+
+Ans4 Quantitative Data refers to numerical data which has numerical values eg age,height,weight whereas qualitative data refers to categorical data
+which is non-numerical in nature eg Name, City, address etc.
+
+
+Q5 What is the defination of percentile?
+Ans5 A percentile is basically a score below which a certain percentage of distribution falls eg if someone score 75 percentile in a exam it means that
+75 percentage of the test takers have scored below the candidate with score 75 percentile.
+

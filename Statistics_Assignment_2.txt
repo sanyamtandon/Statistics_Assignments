@@ -1,0 +1,37 @@
+
+Q1 How can we figure out what is the interquartile range?
+Ans1 Interquartile range is basically the difference between third quartile(75 percentile) and first quartile(25 percentile)
+     Inter-quartile range = Q3-Q1
+     Q3 = 75/100(n+1)
+     Q1 = 25/100(n+1)
+     where n is the total number of values in the dataset. 
+
+
+Q2 What exactly is the value of 5-number theory?
+Ans2 5-number theory comprises of the following and in the same order
+     1. Minimum : lowest value in the dataset
+     2. Q1 (First quartile) : 25 percentile value
+     3. Median : It is the centermost value after arranging the dataset in ascending order in case total number of values in a dataset are odd whereas it is
+                 the averege of 2 centermost numbers in case of a dataset with even number of values.
+     4. Q3 (Third quartile) : 75 percentile value
+     5. Maximum : highest value in the dataset
+Use : 5-number theory helps in plotting a box-plot also called as a box and a whisker chart.
+
+
+Q3 What is the relationship between standard deviation and variance?
+Ans3 Theoretically variance is the dispersion of a random variable in the population/sample dataset from its mean whereas standard deviation in the measure 
+of dispersion of a particular value from the mean.
+Relationship : Standard Deviation = (Variance)^1/2
+
+
+Q4 What does difference between variance and standard deviation mean?
+Ans4 Variance is the average of the squared difference from the mean, i.e it describes the variability of observations from its arithmetic mean whereas 
+Standard Deviation is the measure of dispersion of observations within the data relative to the mean.
+Variance - Standard Deviation = Variance - (Variance)^1/2
+                              
+
+Q5 When is it appropriate to refer to a skewed data distribution?
+Ans5 See, if we have a driver/variable for which the data is there on the extreme left and extreme right and is constantly increasing/decreasing (though we
+have less data), we observe skew ness in the distribution 
+eg Consider Income : In income's disrtibution for entire population we'll observe that there are maximum people with mean income but there our people who
+our extremely rich but they are less in number, hence in Income's distribution right skewness is observed.  

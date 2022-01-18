@@ -1,0 +1,35 @@
+Q1 Write the Gaussian Distribution Empirical formula?
+Ans1 Empirical Formula states that 68% of the distribution lies between positive 1st standard deviation to negative
+     1st standard deviation 
+     95% distribution lies between positive 2nd standard deviation to negative 2nd standard deviation while
+     99.7% of the distribution lies between -ve 3rd standard deviation to the +ve 3rd standard deviation.
+
+
+Q2 What is Z-score and why is it important?
+Ans2 Z-score is a metric that describes a value's relationship to the mean of group of values.
+     z-score = (Observation - Mean)/Standard Deviation
+     It is used to normalise the gaussian distribution i.e making the existing distibution's mean=0 and standard deviation=1
+
+
+Q3 What is an outlier exactly?
+And3 In a dataset an outlier is a number that is either very low or extremely high as compared to the other values in the dataset.
+     Technically speaking, it is a number that doesn't lie within the range of [Lower Fence to Higher Fence]
+     Lower Fence = Q1 - 1.5(IQR)
+     Higher Fence = Q3 + 1.5(IQR)
+     where Q1 is 1st quartile, Q3 is 3rd quartile and IQR is Inter-quartile range.
+
+
+Q4 What are options for dealing with outliers in a dataset?
+Ans4  1. Find Median : Arrange the dataset in ascending order and then find the centermost value as the mean
+      2. Find Mode : Consider the highest occuring number as the mean
+      3. Make a box-plot, with the help of 5-number summary. It will help in determining the outlier and hence can be removed.
+      4. Determine lower fence and higher fence using the formula mentioned in the above question. Any number beyond this range will be an outlier and hence
+        can be removed.
+
+Q5 Write sample and population variance equations and explain Bessel Correction?
+Ans5  Population Variance = Summation i=1 to N (Observation Xi - Population Mean)^2/N
+      Sample Variance = Summation i=1 to n (Observation Xi - Sample Mean)^2/n-1
+      Bessel's Correction : It is basically done so that sample mean increases and hence becomes closer to population mean, so that accurate population
+      mean can be determined. In the above formula (n-1) in the denominator of the sample mean is done so that sample variance becomes closer to the 
+      population variance. 1 is subtracted in Bessel's correction 
+         

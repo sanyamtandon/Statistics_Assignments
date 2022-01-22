@@ -1,0 +1,34 @@
+Q1 What is the defination of covariance? Create the formula for it.
+Ans1 Covariance between 2 variables tells us the relation(inter-dependency) between 2 different variables. i.e whether the 2 variables are directly 
+     proportional or inversely proportional to each other.
+     Formula : Cov(x,y) = Summation i=1 to n [(x-Mean(x))(y-Mean(y))]/n-1
+
+
+Q2 What makes correlation better than covariance?
+Ans2 We have 2 correlation coefficients namely Pearson's correlation and Spearman's rank correlation both these correlation gives us values between the 
+     range [-1 to 1] i.e there is a upper bound and a lower bound on the values which helps us in determining that how positively/negatively are the 2 
+     variables correlated whereas in covariance both positive/negative values don't have any limit. It helps in telling us that whether the 2 variables are 
+     positively/negatively correlated but not to what extent are they correlated. Hence, correlation is better as values close to 1 tell us that the 2 
+     varibles are highly positively correlated where as 0 means that both variables aren't correlated at all while value close to -1 tells us that they are 
+     highly negatively correlated.
+
+
+Q3 Explain the process as well as Pearson's and Spearman's Correlation coefficient.
+Ans3 Pearson's correlation coefficient ranges between [-1 to 1] it tells us how positively/negatively are the two variables correlated. It is denoted by row
+     and is given by Pearson's Correlation Coefficient(row) = Cov(x,y)/(Standard Deviation x * Standard Deviation y)
+     where Cov(x,y) = Summation i=1 to n [(x-Mean(x))(y-Mean(y))]/n-1
+           Standard Deviation x = Summation i=1 to n sqrt((x-Mean(x))^2/n-1)
+     whereas Spearman's correlation coefficient also ranges between [-1 to 1] and is denoted by r. It is given by
+     r = Cov(rank(x),rank(y))/(SD(rank(x)*SD(rank(y))
+
+
+Q4 What are the advantages of Spearman's Correlation over Pearson's Correlation?
+Ans4 Ideally if variable x increases with increase in the value of variable y at very step then correlation value should be 1 i.e 100% correlation but it 
+     has been observed in case of Pearson's correlation that if the growth is slow i.e values of 1 variable are increasing with increase in the value of 
+     other variable but at a slower rate then the Pearson's value is less than 1, Hence Spearman's correlation coefficient was introduced as it overcomes 
+     this and it's value isn't depend on the rate of increase/decrease.
+
+Q5 Describe Central Limit theorem.
+Ans5 Central Limit Theorem states that if we take minimum 30 samples and then compute the average sample mean, it is closer to the actual population mean.
+     basically it tells that more the sample size, higher is the accuracy to make generalisations for population data/mean based on the sample data/mean 
+ 

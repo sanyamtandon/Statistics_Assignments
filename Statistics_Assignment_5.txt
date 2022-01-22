@@ -1,0 +1,56 @@
+Q1 How are you going to figure out the average height of trees in Karnataka?
+Ans1 We can figure this out by using 2 different methods
+     1. Central Limit Theorem : Take minimum 30 samples (each sample must include different species of trees) from different regions in the state, calculate
+                                their average mean, it'll be nearly equal to the average height of trees in the state.
+     2. Using Confidence Interval : Formula CI = Point Estimate +/- Margin Error
+                                    For this method we'll have to make a few assumptions. Assumptions made are as below:
+                                    1. Sample Mean = 12 feet or 366 cms
+                                    2. P-Value (alpha) = 0.05 i.e we have 95% confidence and 5% equally distributed between the 2 tails i.e 0.025 at each 
+                                       tail end.
+                                    3. Standard Deviation = 100
+                                    4. Sample size(n) = 30, So
+                                    CI = Sample Mean +/- Z(alpha/2)*(SD/sqrt(n))
+                                       = 366 +/- Z(0.05/2)*(100/sqrt(30))
+                                       = 366 +/- Z(0.025)*18.28            [Z(0.025) = 1-0.025 = 0.975 (From Z-Table, 0.975=1.96)]
+                                       = 366 +/- (1.96*18.28)
+                                       = 366 +/- 35.82  = [330.18 to 401.82] This should be the range within which average height of trees in Karnataka can lie
+
+
+Q2 What is Hypotheisis testing and How does it work?
+Ans2 In Hypotheisis tesing there are 2 hypotheisis
+     1. Null Hypotheisis - Here it is assumed that everything is same/fair or equal
+     2. Alternate Hypotheisis - Unequal probability/biased
+     We do Hypotheisis Testing to prove whether a claim is true or not, If the claim falls withing the range of Null hypotheisis then alternate hypotheisis
+     is rejected and the claim is said to be true whereas vice-versa if the claim falls within either of the two tails.
+     For Example : If we have p-value = 0.05(as determined by the domain experts) then it means 95% confidence, hence 0.025 of the distribution on both of
+     the tails i.e Region Including either of the tails = 1-0.025 = 0.975  [From Z-Table 0.975 gives 1.96].
+     So, if the claim lies between [-1.96 to +1.96] -> Null Hypotheisis is accepted and Alternate Hypotheisis is rejected while if the claim is
+     <-1.96 or >1.96 then Alternate Hypotheisis is accepted and Null Hypotheisis is rejected. 
+
+
+Q3 Explain the difference between Alpha and Beta errors.Which inaccuracy is the most hazardous?
+Ans3 Alpha Error means Type 1 error i.e Null Hypthotheisis(H0) is rejected and Alternate Hypotheisis(H1) is accepted whereas Beta Error means Type 2 error
+     i.e Alternate Hypotheisis(H1) is rejected and Null Hypotheisis(H0) is accepted.
+     Which Error is the most hazardous, honestly, it depends as in one instance, the Type I(Alpha) error may have consequences that are less acceptable than those 
+     consequences of a Type II error. In another case, the Type II error(Beta) could be less costly than a Type I error.   
+
+
+Q4 What is the significance of p-value?
+Ans4 P-value or alpha is basically the probability for null hypotheisis to be true 
+     eg. Let's consider spacebar in our keyboard, it is long enough and has left,right ends and a center as well but maximum number of time user presses 
+     only at the center as comapred to the times he/she presses left/right extreme ends. If P-value of center = 0.8 then it means that it that if we
+     repeat the same experiment(pressing the spacebar) a 100 times then the number of times we touch at the center is 80.
+
+
+Q5 What is the Probability Distribution Function and How does it work?
+Ans5  In statistics, a PDA(Probability Distribution Function) gives us all the possible values and likelihoods that a random variable(either discrete or
+      continuous) can take within a given range. It even tells us the population mean, standard deviation, variance, skewness in the data(wheter it is 
+      left skewed/right skewed or equally distributed across mean). It is generally a bell curve.
+
+
+  
+                                                                          
+
+
+
+  
